@@ -5,6 +5,13 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+body
+{
+    background-image: url("Img/img1.jpg");
+    justify-content: center;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+}
 nav
 {
     background: #181818;
@@ -53,4 +60,14 @@ nav
     color: white;
     text-decoration: none;
 }
-
+@media screen and (max-width: 550px) 
+{
+    .navleft li ul
+    {
+        display: none;
+    }
+    .navright li ul a:hover
+    {
+        color: orangered;
+    }
+}
